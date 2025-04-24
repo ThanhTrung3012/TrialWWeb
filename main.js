@@ -4,7 +4,7 @@ const chatBox = document.getElementById("chat-box");
 const chatPopup = document.getElementById("chat-popup");
 const chatToggleBtn = document.getElementById("chat-toggle-btn");
 
-const apiKey = "<api_key>";
+const apiKey = "AIzaSyBuYh6S93A-7TOHqMUIqk6UyM8dp09sTvM";
 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
 
