@@ -11,10 +11,10 @@ const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2
 chatToggleBtn.onclick = function() {
   if (chatPopup.style.display === "none" || chatPopup.style.display === "") {
     chatPopup.style.display = "block";
-    chatToggleBtn.style.display = "none"; // Hide toggle button when chat is open
+    chatToggleBtn.style.display = "none"; 
   } else {
     chatPopup.style.display = "none";
-    chatToggleBtn.style.display = "flex"; // Show toggle button when chat is closed
+    chatToggleBtn.style.display = "flex"; 
   }
 };
 
